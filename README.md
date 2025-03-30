@@ -105,11 +105,14 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 ## For Reviewer 9xQG<a id="9xQG"></a>
 
+### For Answers to Questions: A1
+Please refer to [C3](#C3) for details.
+
 ### For Claims And Evidence<a id="9xQG_C"></a>
 
 #### C3<a id="9xQG_C3"></a>
 
-We used different value for the coefficient($\lambda$) for the forget loss in NegGrad+ during gradient ascent.
+We used different value for the coefficient($\lambda$) to the loss on the forget set in NegGrad+ to update the model during gradient ascent.
 
 $\lambda=0$
 
@@ -132,7 +135,27 @@ $\lambda=2$
 ![NegGrad+_lambda2](assets/neggrad_images_resnet18_cifar100_2.pdf)
 
 #### C4<a id="9xQG_C4"></a>
+We set epoch the epoch for the retrained model to 10. Hyperparameters for other methods follow their experimental settings in their work.
 
+| $t=5$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
+| :---: | :---: | :---: | :---: | :---: |
+| Original |     |     |     |     |
+| Retrain |     |     |     |     |
+| FT w/o $\mathcal{D}_f$ |     |     |     |     |
+| BadT |     |     |     |     |
+| SalUn |     |     |     |     |
+| $t=10$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
+| Original |     |     |     |     |
+| Retrain |     |     |     |     |
+| FT w/o $\mathcal{D}_f$ |     |     |     |     |
+| BadT |     |     |     |     |
+| SalUn |     |     |     |     |
+| $t=15$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
+| Original |     |     |     |     |
+| Retrain |     |     |     |     |
+| FT w/o $\mathcal{D}_f$ |     |     |     |     |
+| BadT |     |     |     |     |
+| SalUn |     |     |     |     |
 
 
 ### For Essential References Not Discussed<a id="9xQG_E"></a>
@@ -192,5 +215,4 @@ The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ 
 | $\mathcal{D}_f$ |     |     |     |     |     |     |     |
 | $\mathcal{D}_{test}$ |     |     |     |     |     |     |     |
 
-### For Questions: A1
-Please refer to [C3](#C3) for details.
+
