@@ -109,7 +109,31 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 #### C3<a id="9xQG_C3"></a>
 
+We used different value for the coefficient($\lambda$) for the forget loss in NegGrad+ during gradient ascent.
+
+$\lambda=0$
+
+![NegGrad+_lambda0](assets/neggrad_images_resnet18_cifar100_0.pdf)
+
+$\lambda=0.5$
+
+![NegGrad+_lambda0.5](assets/neggrad_images_resnet18_cifar100_0.5.pdf)
+
+$\lambda=1$
+
+![NegGrad+_lambda1](assets/neggrad_images_resnet18_cifar100_1.pdf)
+
+$\lambda=1.5$
+
+![NegGrad+_lambda1.5](assets/neggrad_images_resnet18_cifar100_1.5.pdf)
+
+$\lambda=2$
+
+![NegGrad+_lambda2](assets/neggrad_images_resnet18_cifar100_2.pdf)
+
 #### C4<a id="9xQG_C4"></a>
+
+
 
 ### For Essential References Not Discussed<a id="9xQG_E"></a>
 
