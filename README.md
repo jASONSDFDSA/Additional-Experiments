@@ -161,50 +161,50 @@ We set epoch the epoch for the retrained model to 10. Hyperparameters for other 
 ### For Essential References Not Discussed<a id="9xQG_E"></a>
 
 #### Random Subset Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
-| Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |
-| MIA |     |     |     |     |     |     |
+| Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $\mathcal{D}_r$ |     |     |     |     |     |
+| $\mathcal{D}_f$ |     |     |     |     |     |
+| $\mathcal{D}_{test}$ |     |     |     |     |     |
+| MIA |     |     |     |     |     |
 
 #### Continual Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
-| Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |
-| MIA |     |     |     |     |     |     |
+| Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $\mathcal{D}_r$ |     |     |     |     |     |
+| $\mathcal{D}_f$ |     |     |     |     |     |
+| $\mathcal{D}_{test}$ |     |     |     |     |     |
+| MIA |     |     |     |     |     |
 
 #### Class Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
-| Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |
+| Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $\mathcal{D}_r$ |     |     |     |     |     |
+| $\mathcal{D}_f$ |     |     |     |     |     |
+| $\mathcal{D}_{test}$ |     |     |     |     |     |
 
 ##### Unlearning on class Mushroom.
-| Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |
+| Metric | Original | Retrain |SCRUB | Rewind-to-delete | VGE-BF|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $\mathcal{D}_r$ |     |     |     |     |     |
+| $\mathcal{D}_f$ |     |     |     |     |     |
+| $\mathcal{D}_{test}$ |     |     |     |     |     |
 
 #### Subclass Unlearning Experiment results on CIFAR-20 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
-| Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |
+| Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $\mathcal{D}_r$ |     |     |     |     |     |
+| $\mathcal{D}_f$ |     |     |     |     |     |
+| $\mathcal{D}_{test}$ |     |     |     |     |     |
 
 ##### Unlearning on class Sea.
-| Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |
+| Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $\mathcal{D}_r$ |     |     |     |     |     |
+| $\mathcal{D}_f$ |     |     |     |     |     |
+| $\mathcal{D}_{test}$ |     |     |     |     |     |
 
 ### For Other Comments Or Suggestions<a id="9xQG_O"></a>
 The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ is the VGE seleted checkpoint.
