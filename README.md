@@ -106,7 +106,7 @@ The additional experiments here include additional metrics, such as "relearn tim
 ## For Reviewer 9xQG<a id="9xQG"></a>
 
 ### For Answers to Questions: A1
-Please refer to [C3](#C3) for details.
+Please refer to [C3](#9xQG_C3) for details.
 
 ### For Claims And Evidence<a id="9xQG_C"></a>
 
