@@ -1,7 +1,20 @@
 # Additional Experiments
 
-## For Reviewer BzXw
-### For Methods And Evaluation Criteria
+## Catalogue
+- [For Reviewer BzXw](#BzXw)
+   - [Methods And Evaluation Criteria](#BzXw_M)
+- [For Reviewer WHHW](#WHHW)
+  - [Methods And Evaluation Criteria: M3 and Essential References Not Discussed](#WHHW_M)
+- [For Reviewer 9xQG](#9xQG)
+  - [Claims And Evidence](#9xQG_C)
+    - [C3](#9xQG_C3)
+    - [C4](#9xQG_C4)
+  - [Essential References Not Discussed](#9xQG_E)
+  - [Other Comments Or Suggestions](#9xQG_O)
+
+
+## For Reviewer BzXw<a id="BzXw"></a>
+### For Methods And Evaluation Criteria<a id="BzXw_M"></a>
 The forget classes are chosen randomly for fair comparison.
 #### Random Subset Unlearning Experiment results on CUB dataset with ResNet18 model.
 | Metric | Original | Retrain | FT w/o $\mathcal{D}_f$ | Random | BadT | SalUn | SSD | VGE-BF|
@@ -34,9 +47,9 @@ The forget classes are chosen randomly for fair comparison.
 | $\mathcal{D}_f$ |     |     |     |     |     |     |     |     |
 | $\mathcal{D}_{test}$ |     |     |     |     |     |     |     |     |
 
-## For Reviewer WHHW
+## For Reviewer WHHW<a id="WHHW"></a>
 
-### For Methods And Evaluation Criteria: M3 and Essential References Not Discussed
+### For Methods And Evaluation Criteria: M3 and Essential References Not Discussed<a id="WHHW_M"></a>
 The additional experiments here include additional metrics, such as "relearn time," on class unlearning and subclass unlearning, and an additional baseline method, SFR-on. The forget classes are chosen based on the setting in the work of SSD.
 
 #### Random Subset Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
@@ -90,15 +103,15 @@ The additional experiments here include additional metrics, such as "relearn tim
 | Relearn Time |     |     |     |     |     |     |     |     |     |
 
 
-## For Reviewer 9xQG  
+## For Reviewer 9xQG<a id="9xQG"></a>
 
-### For Claims And Evidence
+### For Claims And Evidence<a id="9xQG_C"></a>
 
-#### C3<a id="C3"></a>
+#### C3<a id="9xQG_C3"></a>
 
-#### C4
+#### C4<a id="9xQG_C4"></a>
 
-### For Essential References Not Discussed
+### For Essential References Not Discussed<a id="9xQG_E"></a>
 
 #### Random Subset Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 | Metric | Original | Retrain | RUM | SCRUB | Rewind-to-delete | VGE-BF|
@@ -146,7 +159,7 @@ The additional experiments here include additional metrics, such as "relearn tim
 | $\mathcal{D}_f$ |     |     |     |     |     |     |
 | $\mathcal{D}_{test}$ |     |     |     |     |     |     |
 
-### For Other Comments Or Suggestions
+### For Other Comments Or Suggestions<a id="9xQG_O"></a>
 The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ is the VGE seleted checkpoint.
 #### Ablation experiments on the selection of the early stopping epoch (under class unlearning).
 | Metric | Original | Retrain | $t=1$ | $t=3$ | $t=5$ | $t=7$ | $t=9$ |
@@ -157,4 +170,3 @@ The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ 
 
 ### For Questions: A1
 Please refer to [C3](#C3) for details.
-## For Reviewer 4S8A
