@@ -150,7 +150,7 @@ Please refer to [C3](#9xQG_C3) for details.
 
 #### C3<a id="9xQG_C3"></a>
 
-We used different value for the coefficient($\lambda$) to the loss on the forget set in NegGrad+ to update the model during gradient ascent.
+We used different value for the coefficient($\lambda$) to the loss on the forget set in NegGrad+ to update the model during gradient ascent. 
 
 $\lambda=0$
 
