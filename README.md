@@ -154,23 +154,23 @@ We used different value for the coefficient($\lambda$) to the loss on the forget
 
 $\lambda=0$
 
-![NegGrad+_lambda0](assets/neggrad_images_resnet18_cifar100_0.pdf)
+![NegGrad+_lambda0](assets/neggrad_images_0.png)
 
 $\lambda=0.5$
 
-![NegGrad+_lambda0.5](assets/neggrad_images_resnet18_cifar100_0.5.pdf)
+![NegGrad+_lambda0.5](assets/neggrad_images_0.5.png)
 
 $\lambda=1$
 
-![NegGrad+_lambda1](assets/neggrad_images_resnet18_cifar100_1.pdf)
+![NegGrad+_lambda1](assets/neggrad_images_1.png)
 
 $\lambda=1.5$
 
-![NegGrad+_lambda1.5](assets/neggrad_images_resnet18_cifar100_1.5.pdf)
+![NegGrad+_lambda1.5](assets/neggrad_images_1.5.png)
 
 $\lambda=2$
 
-![NegGrad+_lambda2](assets/neggrad_images_resnet18_cifar100_2.pdf)
+![NegGrad+_lambda2](assets/neggrad_images_2.png)
 
 #### C4<a id="9xQG_C4"></a>
 We set epoch the epoch for the retrained model to 10. Hyperparameters for other methods follow their experimental settings in their work.
