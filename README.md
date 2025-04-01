@@ -116,7 +116,7 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 ### For Answers to Questions: A1<a id="9xQG_A"></a>
 
-We used different value for the coefficient $\lambda$ to the loss on the forget set in NegGrad+ to update the model during gradient ascent. Results shows that focusing on too much either objective impair the overall performance of unlearning.
+We used different values for the coefficient($\lambda$) to the loss on the forget set in NegGrad+ to update the model during gradient ascent. Results show that focusing on too much of either objective impairs the overall performance of unlearning.
 
 ![NegGrad+_lambda0](assets/neggrad_images_0.png)
 
