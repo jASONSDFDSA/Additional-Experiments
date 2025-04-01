@@ -62,55 +62,55 @@ The additional experiments here include additional metrics, such as "relearn tim
 #### Random Subset Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| MIA |     |     |     |     |     |
+| $\mathcal{D}_r$ |  80.15  $\pm$ 0.00  |   **80.08 $\pm$ 1.39**  |   $\pm$    |  98.55 $\scriptsize{\pm}$ 1.19   |  **80.44 $\pm$ 0.74**   |
+| $\mathcal{D}_f$ |  80.48 $\pm$ 0.00  |  **51.05 $\pm$ 1.62**   |   $\pm$    |   0.00  $\scriptsize{\pm}$ 0.00  |  **55.58  $\pm$ 0.42**  |
+| $\mathcal{D}_{test}$ |  52.21  $\pm$  0.51 |  **50.51  $\pm$ 0.39**  |    $\pm$   |   29.82 $\scriptsize{\pm}$ 3.47  |  **51.28  $\pm$ 0.79**  |
+| MIA |  64.18  $\pm$  0.61  |  **50.21  $\pm$  0.69** |  $\pm$    |  93.86 $\scriptsize{\pm}$ 0.53  |  **52.14  $\pm$ 0.86**  |
 
 #### Continual Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| MIA |     |     |     |     |     |
+| $\mathcal{D}_r$ | 80.15  $\pm$ 0.00   |  **80.24 $\pm$ 1.09**   |    $\pm$   |  99.98  $\scriptsize{\pm}$ 0.00   |  **80.66 $\pm$ 0.74**   |
+| $\mathcal{D}_f$ |  80.48 $\pm$ 0.00  |  **51.51  $\pm$ 0.66**  |    $\pm$   |  30.27  $\scriptsize{\pm}$ 0.42   |  **55.81 $\pm$ 0.42**   |
+| $\mathcal{D}_{test}$ |   52.32 $\pm$ 0.79  |  **51.38 $\pm$ 0.68**   |    $\pm$   |   39.16  $\scriptsize{\pm}$ 0.95  |  **51.52  $\pm$ 0.79**  |
+| MIA |  64.43  $\pm$ 0.78  |  **49.60 $\pm$ 0.75**   |    $\pm$   |  56.35 $\scriptsize{\pm}$ 0.68   |  **52.10 $\pm$ 0.86**   |
 
 #### Class Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |
+| $\mathcal{D}_r$ |  79.36 $\pm$ 0.00   | **87.09 $\pm$ 0.91**  |  95.30 $\pm$ 0.00   |  99.98 $\scriptsize{\pm}$ 0.00   |  **87.31 $\pm$ 1.03**   |
+| $\mathcal{D}_f$ |  85.00 $\pm$ 0.00   |   **0.00 $\pm$ 0.00**  |  **0.00 $\pm$ 0.00**   |  **0.00 $\scriptsize{\pm}$ 0.00**   |  **0.00 $\pm$ 0.00**   |
+| $\mathcal{D}_{test}$ |   50.83 $\pm$ 0.83  |   **52.06 $\pm$ 0.62**  |  55.09 $\pm$ 0.33   |  53.01 $\scriptsize{\pm}$ 0.00  |  **51.60 $\pm$ 0.80**   |
+| Relearn Time |       |  **778.40 $\pm$ 183.77**  |  11 $\pm$ 0.00   |   2923.67 $\scriptsize{\pm}$ 481.78  |  **570.40 $\pm$ 90.89**   |
 
 ##### Unlearning on class Mushroom.
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |
+| $\mathcal{D}_r$ |  79.32 $\pm$ 0.00   |  **86.42 $\pm$ 0.84**   |  95.17 $\pm$ 0.40   |  99.98 $\scriptsize{\pm}$ 0.00   |   **87.53 $\pm$ 0.47**  |
+| $\mathcal{D}_f$ |  89.20 $\pm$ 0.00   |   **0.00 $\pm$ 0.00**  |   **0.00 $\pm$ 0.00**  |   **0.00 $\scriptsize{\pm}$ 0.00**   |  **0.00 $\pm$ 0.00**  |
+| $\mathcal{D}_{test}$ |  51.10 $\pm$ 0.53   |  **51.87 $\pm$ 0.58**   |  54.74  $\pm$ 0.52   |  54.55 $\scriptsize{\pm}$ 0.00   |  **52.55 $\pm$ 0.49**   |
+| Relearn Time |     |  **1775.20 $\pm$ 210.51**   |  21.00 $\pm$ 2.24   |  2511.00 $\scriptsize{\pm}$ 267.09   |  **1753.40  $\pm$ 210.38**  |
 
 #### Subclass Unlearning Experiment results on CIFAR-20 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |
+| $\mathcal{D}_r$ |   89.07 $\pm$ 0.00 |   $\pm$    |   $\pm$    |   99.98 $\scriptsize{\pm}$ 0.00  |   $\pm$    |
+| $\mathcal{D}_f$ |   94.00 $\pm$ 0.00 |   $\pm$    |    $\pm$   |   0.93 $\scriptsize{\pm}$ 1.27  |   $\pm$    |
+| $\mathcal{D}_{test}$ |   65.02 $\pm$ 0.11  |    $\pm$   |   $\pm$    |  68.67 $\scriptsize{\pm}$ 4.16   |    $\pm$   |
+| Relearn Time |     |    $\pm$   |   $\pm$    |  900.33 $\scriptsize{\pm}$ 642.92   |   $\pm$    |
 
 ##### Unlearning on class Sea.
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |
+| $\mathcal{D}_r$ |  86.95 $\pm$ 0.00   |   $\pm$    |    $\pm$   |  99.91 $\scriptsize{\pm}$ 0.02    |    $\pm$   |
+| $\mathcal{D}_f$ |   98.20 $\pm$ 0.00  |   $\pm$    |   $\pm$    |   60.93 $\scriptsize{\pm}$ 4.93  |   $\pm$    |
+| $\mathcal{D}_{test}$ |   63.53 $\pm$ 0.30  |    $\pm$   |    $\pm$   |  64.00 $\scriptsize{\pm}$ 5.29   |   $\pm$    |
+| Relearn Time |     |    $\pm$   |   $\pm$    |  187.00 $\scriptsize{\pm}$ 141.11   |    $\pm$   |
 
 
 ## For Reviewer 9xQG<a id="9xQG"></a>
@@ -163,48 +163,48 @@ We set epoch the epoch for the retrained model to 10. Hyperparameters for other 
 #### Random Subset Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| MIA |     |     |     |     |     |
+| $\mathcal{D}_r$ |  80.15  $\pm$ 0.00   |   **80.08 $\pm$ 1.39**   |  21.58 $\scriptsize{\pm}$ 0.95   |  68.28 $\scriptsize{\pm}$ 0.00  |  **80.44 $\pm$ 0.74**   |
+| $\mathcal{D}_f$ |  80.48 $\pm$ 0.00   |   **51.05 $\pm$ 1.62**  |   20.58 $\scriptsize{\pm}$ 0.83  |   67.15 $\scriptsize{\pm}$ 0.06  |  **55.58  $\pm$ 0.42**   |
+| $\mathcal{D}_{test}$ |  52.21  $\pm$  0.51   |   **50.51  $\pm$ 0.39**  |  20.21 $\scriptsize{\pm}$ 1.22  |  54.09 $\scriptsize{\pm}$ 0.01   |   **51.28  $\pm$ 0.79**  |
+| MIA |  64.18  $\pm$  0.61    |   **50.21  $\pm$  0.69**  |  **50.99 $\scriptsize{\pm}$ 0.36**  | 57.05 $\scriptsize{\pm}$ 0.37 |  52.14  $\pm$ 0.86   |
 
 #### Continual Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
-| MIA |     |     |     |     |     |
+| $\mathcal{D}_r$ |  80.15  $\pm$ 0.00   |  **80.24 $\pm$ 1.09**   |   1.60 $\scriptsize{\pm}$ 0.65  |  68.21 $\scriptsize{\pm}$ 0.00  |   **80.66 $\pm$ 0.74**  |
+| $\mathcal{D}_f$ |   80.48 $\pm$ 0.00  |  **51.51  $\pm$ 0.66**   |   1.49 $\scriptsize{\pm}$ 0.70  |   67.49 $\scriptsize{\pm}$ 0.02  |   **55.81 $\pm$ 0.42**  |
+| $\mathcal{D}_{test}$ |  52.32 $\pm$ 0.79   |  **51.38 $\pm$ 0.68**    |  1.56 $\scriptsize{\pm}$ 0.59   |   53.92 $\scriptsize{\pm}$ 0.03  |  **51.52  $\pm$ 0.79**   |
+| MIA |  64.43  $\pm$ 0.78    |  **49.60 $\pm$ 0.75**   |   **50.99 $\scriptsize{\pm}$ 0.37**  | 56.90 $\scriptsize{\pm}$ 0.27 |  52.10 $\pm$ 0.86   |
 
 #### Class Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
+| $\mathcal{D}_r$ |  79.36 $\pm$ 0.00   |  **87.09 $\pm$ 0.91**   | 27.83 $\scriptsize{\pm}$ 0.91  |   65.86 $\scriptsize{\pm}$ 0.00  |   **87.31 $\pm$ 1.03**   |
+| $\mathcal{D}_f$ |  85.00 $\pm$ 0.00   |   **0.00 $\pm$ 0.00**  |  **0.00 $\scriptsize{\pm}$ 0.00**  |  73.60 $\scriptsize{\pm}$ 0.00   |   **0.00 $\pm$ 0.00**   |
+| $\mathcal{D}_{test}$ |  50.83 $\pm$ 0.83   |   **52.06 $\pm$ 0.62**   |  26.81 $\scriptsize{\pm}$ 1.16  |   53.91 $\scriptsize{\pm}$ 0.01  |   **51.60 $\pm$ 0.80**  |
 
 ##### Unlearning on class Mushroom.
 | Metric | Original | Retrain |SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
+| $\mathcal{D}_r$ |  79.32 $\pm$ 0.00   |  **86.42 $\pm$ 0.84**   |  29.64 $\scriptsize{\pm}$ 1.45  |   65.98 $\scriptsize{\pm}$ 0.00  |  **87.53 $\pm$ 0.47**   |
+| $\mathcal{D}_f$ |  89.20 $\pm$ 0.00   |  **0.00 $\pm$ 0.00**   |   **0.00 $\scriptsize{\pm}$ 0.00**  |  37.47 $\scriptsize{\pm}$ 0.01   |  **0.00 $\pm$ 0.00**   |
+| $\mathcal{D}_{test}$ |   51.10 $\pm$ 0.53   | **51.87 $\pm$ 0.58**  | 28.06 $\scriptsize{\pm}$ 1.32  |  54.21 $\scriptsize{\pm}$ 0.01   |   **52.55 $\pm$ 0.49**  |
 
 #### Subclass Unlearning Experiment results on CIFAR-20 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
+| $\mathcal{D}_r$ |  89.07 $\pm$ 0.00   |     |  50.98 $\scriptsize{\pm}$ 0.78 |   79.21 $\scriptsize{\pm}$ 0.01  |     |
+| $\mathcal{D}_f$ |   94.00 $\pm$ 0.00  |     |  0.02 $\scriptsize{\pm}$ 1.29   |   68.60 $\scriptsize{\pm}$ 0.20  |     |
+| $\mathcal{D}_{test}$ |  65.02 $\pm$ 0.11   |     |  57.33 $\scriptsize{\pm}$ 3.06   |  72.00 $\scriptsize{\pm}$ 0.00   |     |
 
 ##### Unlearning on class Sea.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |
+| $\mathcal{D}_r$ |  86.95 $\pm$ 0.00   |     |  51.81 $\scriptsize{\pm}$ 1.21  |  79.16 $\scriptsize{\pm}$ 0.02   |     |
+| $\mathcal{D}_f$ |  98.20 $\pm$ 0.00   |     |  70.87 $\scriptsize{\pm}$ 9.13  |  92.60 $\scriptsize{\pm}$ 0.00   |     |
+| $\mathcal{D}_{test}$ |  63.53 $\pm$ 0.30   |     |  48.67 $\scriptsize{\pm}$ 9.02   |   64.00 $\scriptsize{\pm}$ 0.00  |     |
 
 ### For Other Comments Or Suggestions<a id="9xQG_O"></a>
 The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ is the VGE seleted checkpoint.
