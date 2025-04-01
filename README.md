@@ -56,7 +56,7 @@ The forget classes are chosen randomly for fair comparison.
 ## For Reviewer WHHW<a id="WHHW"></a>
 
 ### For Methods And Evaluation Criteria: M3 and Essential References Not Discussed<a id="WHHW_M"></a>
-The additional experiments here include additional metrics, such as "relearn time," on class unlearning and subclass unlearning, and an additional baseline method, SFR-on. The forget classes are chosen based on the setting in the work of SSD.
+The additional experiments here include an additional metric, "relearn time," on class unlearning and subclass unlearning, and an additional baseline method, SFR-on. The forget classes are chosen based on the setting in the work of SSD.
 
 #### Random Subset Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
