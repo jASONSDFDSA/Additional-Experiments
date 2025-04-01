@@ -97,18 +97,18 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |   89.07 $\pm$ 0.00 |  **87.41 $\pm$ 0.41**   |  95.30 $\pm$ 0.00   |   99.98 $\scriptsize{\pm}$ 0.00  |  **86.44 $\pm$ 0.96**   |
-| $\mathcal{D}_f$ |   94.00 $\pm$ 0.00 |  **0.00 $\pm$ 0.00**   |   **0.00 $\pm$ 0.00**  |   0.93 $\scriptsize{\pm}$ 1.27  |  **0.00 $\pm$ 0.00**   |
-| $\mathcal{D}_{test}$ |  65.02 $\pm$ 0.11  |   **51.88 $\pm$ 0.74**  |  55.09 $\pm$  0.33  |  68.67 $\scriptsize{\pm}$ 4.16   |   **51.80 $\pm$ 0.87**  |
+| $\mathcal{D}_r$ |   89.07 $\pm$ 0.00 |  **87.96 $\pm$ 1.81**   |  96.57 $\pm$ 0.00   |   99.98 $\scriptsize{\pm}$ 0.00  |  **86.24 $\pm$ 3.62**   |
+| $\mathcal{D}_f$ |   94.00 $\pm$ 0.00 |  **2.28 $\pm$ 1.11**   |   9.40 $\pm$ 0.00  |   **0.93 $\scriptsize{\pm}$ 1.27**  |  7.72 $\pm$ 2.01   |
+| $\mathcal{D}_{test}$ |  65.02 $\pm$ 0.11  |   **63.58 $\pm$ 1.08**  |  66.77 $\pm$  0.44  |  68.67 $\scriptsize{\pm}$ 4.16   |   **61.98 $\pm$ 3.10**  |
 | Relearn Time |     |  **765.20  $\pm$ 232.08**  |  11.00 $\pm$  0.00  |  **900.33 $\scriptsize{\pm}$ 642.92**   |  608.20 $\pm$ 139.05   |
 
 ##### Unlearning on class Sea.
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |  86.95 $\pm$ 0.00   |  **87.55 $\pm$ 1.16**   |  95.50  $\pm$ 0.00  |  99.91 $\scriptsize{\pm}$ 0.02    |  **87.56  $\pm$ 0.91**  |
-| $\mathcal{D}_f$ |   98.20 $\pm$ 0.00  |  **0.00 $\pm$ 0.00**   |  **0.00 $\pm$ 0.00**   |   60.93 $\scriptsize{\pm}$ 4.93  |  **0.00 $\pm$ 0.00**   |
-| $\mathcal{D}_{test}$ |   63.53 $\pm$ 0.30  |  **52.21  $\pm$ 0.79**  |   55.00 $\pm$ 0.18  |  64.00 $\scriptsize{\pm}$ 5.29   |  **51.66 $\pm$ 0.68**   |
+| $\mathcal{D}_r$ |  86.95 $\pm$ 0.00   |  **88.82 $\pm$ 0.70**   |  95.50  $\pm$ 0.00  |  99.91 $\scriptsize{\pm}$ 0.02    |  **88.23  $\pm$ 1.13**  |
+| $\mathcal{D}_f$ |   98.20 $\pm$ 0.00  |  **71.76 $\pm$ 9.46**   |  **76.40 $\pm$ 2.24**   |   60.93 $\scriptsize{\pm}$ 4.93  |  81.30 $\pm$ 3.62   |
+| $\mathcal{D}_{test}$ |   63.53 $\pm$ 0.30  |  **64.43  $\pm$ 0.81**  |   67.44 $\pm$ 0.64  |  64.00 $\scriptsize{\pm}$ 5.29   |  **64.37 $\pm$ 0.50**   |
 | Relearn Time |     |  **646.80 $\pm$ 90.94**   |  10.00 $\pm$ 0.00  |  187.00 $\scriptsize{\pm}$ 141.11   |   **609.20 $\pm$ 152.78**   |
 
 
@@ -190,16 +190,16 @@ We set epoch the epoch for the retrained model to 10. Hyperparameters for other 
 ##### Unlearning on class Rocket.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |  89.07 $\pm$ 0.00   |   **87.41 $\pm$ 0.41**  |  50.98 $\scriptsize{\pm}$ 0.78 |   79.21 $\scriptsize{\pm}$ 0.01  |  **86.44 $\pm$ 0.96**   |
-| $\mathcal{D}_f$ |   94.00 $\pm$ 0.00  |  **0.00 $\pm$ 0.00**   |  0.02 $\scriptsize{\pm}$ 1.29   |   68.60 $\scriptsize{\pm}$ 0.20  |  **0.00 $\pm$ 0.00**   |
-| $\mathcal{D}_{test}$ |  65.02 $\pm$ 0.11   |   **51.88 $\pm$ 0.74**   |  57.33 $\scriptsize{\pm}$ 3.06   |  72.00 $\scriptsize{\pm}$ 0.00   |  **51.80 $\pm$ 0.87**   |
+| $\mathcal{D}_r$ |  89.07 $\pm$ 0.00   |   **87.96 $\pm$ 1.81**  |  50.98 $\scriptsize{\pm}$ 0.78 |   79.21 $\scriptsize{\pm}$ 0.01  |  **86.24 $\pm$ 3.62**   |
+| $\mathcal{D}_f$ |   94.00 $\pm$ 0.00  |  **2.28 $\pm$ 1.11**  |  **0.02 $\scriptsize{\pm}$ 1.29**   |   68.60 $\scriptsize{\pm}$ 0.20  |  7.72 $\pm$ 2.01   |
+| $\mathcal{D}_{test}$ |  65.02 $\pm$ 0.11   |   **63.58 $\pm$ 1.08**   |  57.33 $\scriptsize{\pm}$ 3.06   |  72.00 $\scriptsize{\pm}$ 0.00   |  **61.98 $\pm$ 3.10**   |
 
 ##### Unlearning on class Sea.
 | Metric | Original | Retrain | SCRUB | Rewind-to-delete | VGE-BF|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |  86.95 $\pm$ 0.00   |  **87.55 $\pm$ 1.16**  |  51.81 $\scriptsize{\pm}$ 1.21  |  79.16 $\scriptsize{\pm}$ 0.02   |  **87.56  $\pm$ 0.91**   |
-| $\mathcal{D}_f$ |  98.20 $\pm$ 0.00   |   **0.00 $\pm$ 0.00**  |  70.87 $\scriptsize{\pm}$ 9.13  |  92.60 $\scriptsize{\pm}$ 0.00   |   **0.00 $\pm$ 0.00**  |
-| $\mathcal{D}_{test}$ |  63.53 $\pm$ 0.30   |   **52.21  $\pm$ 0.79**  |  48.67 $\scriptsize{\pm}$ 9.02   |   64.00 $\scriptsize{\pm}$ 0.00  |   **51.66 $\pm$ 0.68**  |
+| $\mathcal{D}_r$ |  86.95 $\pm$ 0.00   |  **88.82 $\pm$ 0.70**  |  51.81 $\scriptsize{\pm}$ 1.21  |  79.16 $\scriptsize{\pm}$ 0.02   |  **88.23  $\pm$ 1.13**   |
+| $\mathcal{D}_f$ |  98.20 $\pm$ 0.00   |   **71.76 $\pm$ 9.46**  |  **70.87 $\scriptsize{\pm}$ 9.13**  |  92.60 $\scriptsize{\pm}$ 0.00   |   81.30 $\pm$ 3.62  |
+| $\mathcal{D}_{test}$ |  63.53 $\pm$ 0.30   |   **64.43  $\pm$ 0.81**  |  48.67 $\scriptsize{\pm}$ 9.02   |   64.00 $\scriptsize{\pm}$ 0.00  |   **64.37 $\pm$ 0.50**  |
 
 ### For Other Comments Or Suggestions<a id="9xQG_O"></a>
 The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ is the VGE seleted checkpoint.
