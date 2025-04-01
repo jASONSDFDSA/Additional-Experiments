@@ -173,27 +173,27 @@ $\lambda=2$
 ![NegGrad+_lambda2](assets/neggrad_images_2.png)
 
 #### C4<a id="9xQG_C4"></a>
-We set epoch the epoch for the retrained model to 10. Hyperparameters for other methods follow their experimental settings in their work.
+We set epoch the epoch for the retrained model to 10. Hyperparameters for other methods follow their experimental settings in their work. 
 
 | $t=5$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
 | :---: | :---: | :---: | :---: | :---: |
-| Original |     |     |     |     |
-| Retrain |     |     |     |     |
-| FT w/o $\mathcal{D}_f$ |     |     |     |     |
-| BadT |     |     |     |     |
-| SalUn |     |     |     |     |
+| Original | 77.31 | 78.06 | 52.32 | 62.80 |
+| Retrain | **90.81** | **50.26** | **51.28** | **49.91** |
+| FT w/o $\mathcal{D}_f$ | 81.87 | 66.04 | **50.54** | **57.94** |
+| BadT | 67.37 | **64.50** | 49.64 | 58.39 |
+| SalUn | **87.76** | 80.50 | 54.99 | 62.94 |
 | $t=10$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
-| Original |     |     |     |     |
-| Retrain |     |     |     |     |
-| FT w/o $\mathcal{D}_f$ |     |     |     |     |
-| BadT |     |     |     |     |
-| SalUn |     |     |     |     |
+| Original | 91.59 | 92.00 | 52.78 | 70.03 |
+| Retrain | **90.11** | **49.60** | **50.64** | **50.62** |
+| FT w/o $\mathcal{D}_f$ | **93.20** | 83.04 | **51.74** | 66.02 |
+| BadT | 83.45 | **78.70** | 49.74 | **64.70** |
+| SalUn | 96.25 | 89.71 | 52.77 | 68.38 |
 | $t=15$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
-| Original |     |     |     |     |
-| Retrain |     |     |     |     |
-| FT w/o $\mathcal{D}_f$ |     |     |     |     |
-| BadT |     |     |     |     |
-| SalUn |     |     |     |     |
+| Original | 95.54 | 95.48 | 52.22 | 71.55 |
+| Retrain | **90.22** | **50.16** | **50.81** | **50.32** |
+| FT w/o $\mathcal{D}_f$ | 96.02 | 89.50 | **50.28** | 69.89 |
+| BadT | **92.12** | **87.18** | 49.68 | **68.94** |
+| SalUn | 98.39 | 92.72 | 51.91 | 70.48 |
 
 
 ### For Essential References Not Discussed<a id="9xQG_E"></a>
@@ -252,5 +252,4 @@ The forget class (Mushroom) is one of the classes used in the main paper. $t=5$ 
 | $\mathcal{D}_r$ | 90.54 $\scriptsize{\pm}$ 0.00 | **90.56 $\scriptsize{\pm}$ 0.83** | 80.52 $\scriptsize{\pm}$ 1.32 | 86.99 $\scriptsize{\pm}$ 0.73 | **91.45 $\scriptsize{\pm}$ 0.98** | 93.56 $\scriptsize{\pm}$ 0.62 | 94.71 $\scriptsize{\pm}$ 0.51 |
 | $\mathcal{D}_f$ | 93.80 $\scriptsize{\pm}$ 0.00 | **0.00 $\scriptsize{\pm}$ 0.00** | **0.00 $\scriptsize{\pm}$ 0.00** | **0.00 $\scriptsize{\pm}$ 0.00** | **0.00 $\scriptsize{\pm}$ 0.00** | **0.00 $\scriptsize{\pm}$ 0.00** | **0.00 $\scriptsize{\pm}$ 0.00** |
 | $\mathcal{D}_{test}$ | 51.94 $\scriptsize{\pm}$ 0.48 | **51.99 $\scriptsize{\pm}$ 0.69** | **51.92 $\scriptsize{\pm}$ 1.00** | 52.45 $\scriptsize{\pm}$ 0.40 | 52.40 $\scriptsize{\pm}$ 0.80 | 52.16 $\scriptsize{\pm}$ 0.51 | 52.55 $\scriptsize{\pm}$ 0.55 |
-
 
