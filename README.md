@@ -6,9 +6,8 @@
 - [For Reviewer WHHW](#WHHW)
   - [Methods And Evaluation Criteria: M3 and Essential References Not Discussed](#WHHW_M)
 - [For Reviewer 9xQG](#9xQG)
-  - [Claims And Evidence](#9xQG_C)
-    - [C3](#9xQG_C3)
-    - [C4](#9xQG_C4)
+  - [Answers to Questions](#9xQG_A)
+  - [Claims And Evidence: C4](#9xQG_C)
   - [Essential References Not Discussed](#9xQG_E)
   - [Other Comments Or Suggestions](#9xQG_O)
 
@@ -115,14 +114,9 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 ## For Reviewer 9xQG<a id="9xQG"></a>
 
-### For Answers to Questions: A1
-Please refer to [C3](#9xQG_C3) for details.
+### For Answers to Questions: A1<a id="9xQG_A"></a>
 
-### For Claims And Evidence<a id="9xQG_C"></a>
-
-#### C3<a id="9xQG_C3"></a>
-
-We used different value for the coefficient($\lambda$) to the loss on the forget set in NegGrad+ to update the model during gradient ascent. 
+We used different value for the coefficient $\lambda$ to the loss on the forget set in NegGrad+ to update the model during gradient ascent. Results shows that focusing on too much either objective impair the overall performance of unlearning.
 
 ![NegGrad+_lambda0](assets/neggrad_images_0.png)
 
@@ -134,7 +128,8 @@ We used different value for the coefficient($\lambda$) to the loss on the forget
 
 ![NegGrad+_lambda2](assets/neggrad_images_2.png)
 
-#### C4<a id="9xQG_C4"></a>
+### For Claims And Evidence: C4<a id="9xQG_C"></a>
+
 We set epoch the epoch for the retrained model to 10. Hyperparameters for other methods follow their experimental settings in their work. 
 
 | $t=5$ | $\mathcal{D}_r$ | $\mathcal{D}_f$ | $\mathcal{D}_{test}$ | MIA |
