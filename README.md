@@ -77,13 +77,6 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 #### Class Unlearning Experiment results on CIFAR-100 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
-<!--- | Metric | Original | Retrain | FT w/o $\mathcal{D}_f$ | Random | BadT | SalUn | SFR-on | SSD | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |     |     |     |     |] -->
-
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | $\mathcal{D}_r$ |     |     |     |     |     |
@@ -92,13 +85,6 @@ The additional experiments here include additional metrics, such as "relearn tim
 | Relearn Time |     |     |     |     |     |
 
 ##### Unlearning on class Mushroom.
-<!--- | Metric | Original | Retrain | FT w/o $\mathcal{D}_f$ | Random | BadT | SalUn | SFR-on | SSD | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |     |     |     |     |] -->
-
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -109,13 +95,6 @@ The additional experiments here include additional metrics, such as "relearn tim
 
 #### Subclass Unlearning Experiment results on CIFAR-20 dataset with ResNet18 model.
 ##### Unlearning on class Rocket.
-<!--- | Metric | Original | Retrain | FT w/o $\mathcal{D}_f$ | Random | BadT | SalUn | SFR-on | SSD | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |     |     |     |     |] -->
-
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -125,13 +104,6 @@ The additional experiments here include additional metrics, such as "relearn tim
 | Relearn Time |     |     |     |     |     |
 
 ##### Unlearning on class Sea.
-<!--- | Metric | Original | Retrain | FT w/o $\mathcal{D}_f$ | Random | BadT | SalUn | SFR-on | SSD | VGE-BF|
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $\mathcal{D}_r$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_f$ |     |     |     |     |     |     |     |     |     |
-| $\mathcal{D}_{test}$ |     |     |     |     |     |     |     |     |     |
-| Relearn Time |     |     |     |     |     |     |     |     |     |] -->
-
 
 | Metric | Original | Retrain | SalUn | SFR-on | VGE-BF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -152,23 +124,13 @@ Please refer to [C3](#9xQG_C3) for details.
 
 We used different value for the coefficient($\lambda$) to the loss on the forget set in NegGrad+ to update the model during gradient ascent. 
 
-$\lambda=0$
-
 ![NegGrad+_lambda0](assets/neggrad_images_0.png)
-
-$\lambda=0.5$
 
 ![NegGrad+_lambda0.5](assets/neggrad_images_0.5.png)
 
-$\lambda=1$
-
 ![NegGrad+_lambda1](assets/neggrad_images_1.png)
 
-$\lambda=1.5$
-
 ![NegGrad+_lambda1.5](assets/neggrad_images_1.5.png)
-
-$\lambda=2$
 
 ![NegGrad+_lambda2](assets/neggrad_images_2.png)
 
